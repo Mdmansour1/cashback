@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>الشروط والأحكام - منصور</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
   * { box-sizing: border-box; }
   body {
     margin: 0;
@@ -83,9 +83,10 @@
     margin-top: 2px;
   }
   .text {
-    font-size: 16px;
-    line-height: 2;
-    font-weight: 500;
+     font-size: 16px;
+     line-height: 2;
+     font-family: "Cairo", "Tahoma", Arial, sans-serif;
+     font-weight: 600;
   }
   strong { color: #163f42; font-weight: 700; }
   .footer {
@@ -114,7 +115,58 @@
     .term { grid-template-columns: 38px 1fr; gap: 10px; padding: 14px 0; }
     .text { font-size: 14px; line-height: 1.9; }
     .num { width: 32px; height: 32px; font-size: 13px; }
+    .contact-button {
+      width: 100%;
+      min-width: 0;
+    }
+
   }
+
+  .contact {
+    margin-top: 28px;
+    text-align: center;
+  }
+  .contact-title {
+    color: #a88d5d;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+  .contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .contact-button {
+    min-width: 220px;
+    padding: 11px 18px;
+    border: 1px solid rgba(174,148,103,.35);
+    border-radius: 8px;
+    background: rgba(248,243,232,.72);
+    color: #163f42;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Cairo", "Tahoma", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .contact-button:hover {
+    background: #f1eadc;
+  }
+  .contact-button small {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .contact-icon {
+    font-size: 20px;
+    line-height: 1;
+  }
+
 </style>
 </head>
 <body>
@@ -125,16 +177,31 @@
   </header>
 
   <section class="terms">
-    <div class="term"><div class="num">1</div><div class="text">يتم إصدار <strong>قسيمة شرائية إلكترونية</strong> للعميل مقابل فاتورة شراء صادرة من أحد معارض <strong>منصور للتجزئة</strong> المشمولة بالعرض.</div></div>
-    <div class="term"><div class="num">2</div><div class="text">يسري العرض على المشتريات التي تبلغ قيمتها <strong>2,000 ريال سعودي فأكثر</strong>.</div></div>
-    <div class="term"><div class="num">3</div><div class="text">يتم تحديد <strong>قيمة القسيمة الشرائية</strong> وفقًا لقيمة فاتورة الشراء، وذلك حسب <strong>آلية العرض المعتمدة</strong>.</div></div>
-    <div class="term"><div class="num">4</div><div class="text">تكون القسيمة الشرائية صالحة لمدة <strong>30 يومًا من تاريخ إصدار فاتورة الشراء</strong>، ولا يحق للعميل المطالبة بها أو استخدامها بعد انتهاء مدة صلاحيتها.</div></div>
-    <div class="term"><div class="num">5</div><div class="text">يمكن استخدام القسيمة الشرائية عند إجراء عملية شراء جديدة من أي من معارض <strong>منصور للتجزئة</strong> المشمولة بالعرض، ولا يجوز استبدال القسيمة بمبلغ نقدي أو المطالبة بقيمتها نقدًا.</div></div>
-    <div class="term"><div class="num">6</div><div class="text">يجب استخدام <strong>كامل قيمة القسيمة الشرائية في عملية شراء واحدة</strong>، ولا يجوز تقسيم قيمة القسيمة أو استخدامها على أكثر من عملية شراء.</div></div>
-    <div class="term"><div class="num">7</div><div class="text">يمكن استخدام القسيمة الشرائية في <strong>أي من معارض منصور للتجزئة المشمولة بالعرض</strong>، وفقًا للسياسات والأنظمة المعتمدة.</div></div>
-    <div class="term"><div class="num">8</div><div class="text">الفواتير المشمولة بالعرض <strong>غير قابلة للاسترجاع أو الاستبدال</strong>، باستثناء الحالات التي يجيزها النظام، بما في ذلك حالات وجود عيب مصنعي. وفي حال إرجاع أو استبدال الفاتورة وفقًا للحالات المسموح بها، تعتبر القسيمة الشرائية الصادرة عنها <strong>ملغاة تلقائيًا</strong>.</div></div>
-    <div class="term"><div class="num">9</div><div class="text">يتم إرسال القسيمة الشرائية <strong>إلكترونيًا إلى العميل خلال مدة أقصاها 24 ساعة من تاريخ إصدار فاتورة الشراء</strong>.</div></div>
-    <div class="term"><div class="num">10</div><div class="text">تحتفظ <strong>منصور للتجزئة</strong> بحقها في تعديل أو تعليق أو إيقاف العرض، وفقًا للأنظمة والسياسات المعتمدة، مع مراعاة حقوق العملاء المستحقة وفقًا للأنظمة ذات العلاقة.</div></div>
+    <div class="term"><div class="num">1</div><div class="text">يتم إصدار قسيمة شرائية إلكترونية للعميل مقابل فاتورة شراء صادرة من أحد معارض منصور للتجزئة المشمولة بالعرض.</div></div>
+    <div class="term"><div class="num">2</div><div class="text">يسري العرض على المشتريات التي تبلغ قيمتها 2,000 ريال سعودي فأكثر.</div></div>
+    <div class="term"><div class="num">3</div><div class="text">يتم تحديد قيمة القسيمة الشرائية وفقًا لقيمة فاتورة الشراء، وذلك حسب آلية العرض المعتمدة.</div></div>
+    <div class="term"><div class="num">4</div><div class="text">تكون القسيمة الشرائية صالحة لمدة 30 يومًا من تاريخ إصدار فاتورة الشراء، ولا يحق للعميل المطالبة بها أو استخدامها بعد انتهاء مدة صلاحيتها.</div></div>
+    <div class="term"><div class="num">5</div><div class="text">يمكن استخدام القسيمة الشرائية عند إجراء عملية شراء جديدة من أي من معارض منصور للتجزئة المشمولة بالعرض، ولا يجوز استبدال القسيمة بمبلغ نقدي أو المطالبة بقيمتها نقدًا.</div></div>
+    <div class="term"><div class="num">6</div><div class="text">يجب استخدام كامل قيمة القسيمة الشرائية في عملية شراء واحدة، ولا يجوز تقسيم قيمة القسيمة أو استخدامها على أكثر من عملية شراء.</div></div>
+    <div class="term"><div class="num">7</div><div class="text">يمكن استخدام القسيمة الشرائية في أي من معارض منصور للتجزئة المشمولة بالعرض، وفقًا للسياسات والأنظمة المعتمدة.</div></div>
+    <div class="term"><div class="num">8</div><div class="text">الفواتير المشمولة بالعرض غير قابلة للاسترجاع أو الاستبدال، باستثناء الحالات التي يجيزها النظام، بما في ذلك حالات وجود عيب مصنعي. وفي حال إرجاع أو استبدال الفاتورة وفقًا للحالات المسموح بها، تعتبر القسيمة الشرائية الصادرة عنها ملغاة تلقائيًا.</div></div>
+    <div class="term"><div class="num">9</div><div class="text">يتم إرسال القسيمة الشرائية إلكترونيًا إلى العميل خلال مدة أقصاها 24 ساعة من تاريخ إصدار فاتورة الشراء.</div></div>
+    <div class="term"><div class="num">10</div><div class="text">عند استخدام القسيمة الشرائية، يتم إرسال كود تحقق إلى البريد الإلكتروني المسجل للعميل عند استلام القسيمة في عملية الشراء السابقة، ويجب تزويد موظف المبيعات بكود التحقق المرسل إلى البريد الإلكتروني لتفعيل القسيمة.</div></div>
+    <div class="term"><div class="num">11</div><div class="text">تحتفظ منصور للتجزئة بحقها في تعديل أو تعليق أو إيقاف العرض، وفقًا للأنظمة والسياسات المعتمدة، مع مراعاة حقوق العملاء المستحقة وفقًا للأنظمة ذات العلاقة.</div></div>
+  </section>
+
+  <section class="contact">
+    <div class="contact-title">بيانات التواصل</div>
+    <div class="contact-buttons">
+      <a class="contact-button" href="https://wa.me/966565506997" target="_blank" rel="noopener noreferrer">
+        <span class="contact-icon">☎</span>
+        <span>واتساب<br><small>0565506997</small></span>
+      </a>
+      <a class="contact-button" href="mailto:sales@mansour.com.sa">
+        <span class="contact-icon">✉</span>
+        <span>البريد الإلكتروني<br><small>sales@mansour.com.sa</small></span>
+      </a>
+    </div>
   </section>
 
   <div class="footer"><span class="footer-line"></span> mansour • منصور <span class="footer-line"></span></div>
